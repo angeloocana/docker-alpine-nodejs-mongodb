@@ -8,6 +8,8 @@ RUN echo 'http://dl-3.alpinelinux.org/alpine/edge/testing' >> /etc/apk/repositor
     apk upgrade --update && \ 
     apk add mongodb
 
-#CMD ['/bin/sh']
+VOLUME /data/db
+
+CMD ["mongod"]
 
 
