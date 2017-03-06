@@ -1,5 +1,5 @@
 #Alpine based Nodejs container
-FROM angeloocana/alpine-nodejs:0.2
+FROM angeloocana/alpine-nodejs:0.3
 
 #created by angeloocana.com.br
 MAINTAINER angeloocana@gmail.com
